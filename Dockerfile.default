@@ -1,0 +1,4 @@
+FROM bitbay/docker-kali-novnc:latest
+
+RUN apt-get update
+RUN apt-get -y install kali-linux-default
